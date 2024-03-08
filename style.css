@@ -7,4 +7,6 @@
   .invalid {
     background-color: #ffcdd2; /* Color rojo para campos inválidos */
   }
-  
+  .invalid-label {
+    color: red;
+  }
