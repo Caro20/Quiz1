@@ -17,7 +17,7 @@
           Formulario de solicitud de permiso de construcción
         </h1>
       </header>
-      
+      <form>
         <div class="form-group">
           <label for="fecha-ingreso">Fecha de ingreso</label>
           <input type="date" class="form-control" id="fecha-ingreso" />
@@ -65,358 +65,523 @@
           <input type="text" class="form-control" id="otras-senias" />
         </div>
         <h2>Inscripción en el registro público</h2>
-        <div class="form-group">
-          <label for="folio-real">Folio real</label>
-          <input type="number" class="form-control" id="folio-real" />
-        </div>
-        <div class="form-group">
-          <label for="area">Área de terreno</label>
-          <input type="number" class="form-control" id="area" />
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="folio-real">Folio real</label>
+              <input type="number" class="form-control" id="folio-real" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="area">Área de terreno</label>
+              <input type="number" class="form-control" id="area" />
+            </div>
+          </div>
         </div>
         <h2>Permiso para</h2>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            value=""
-            id="construir"
-          />
-          <label class="form-check-label" for="construir"> Construir </label>
-        </div>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            value=""
-            id="remodelar"
-          />
-          <label class="form-check-label" for="remodelar"> Remodelar </label>
-        </div>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            value=""
-            id="demoler"
-          />
-          <label class="form-check-label" for="demoler"> Demolición </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="otro" />
-          <label class="form-check-label" for="otro"> Otro </label>
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control" id="otro-input" />
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="construir"
+              />
+              <label class="form-check-label" for="construir">
+                Construir
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="remodelar"
+              />
+              <label class="form-check-label" for="remodelar">
+                Remodelar
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="demoler"
+              />
+              <label class="form-check-label" for="demoler"> Demolición </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="otro"
+              />
+              <label class="form-check-label" for="otro"> Otro </label>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="otro-input" />
+            </div>
+          </div>
         </div>
         <h2>Clase de obra</h2>
-        <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="vivienda"
-            />
-            <label class="form-check-label" for="vivienda"> Vivienda </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="urbanizacion"
-            />
-            <label class="form-check-label" for="urbanizacion"> Urbanización </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="local-comercial"
-            />
-            <label class="form-check-label" for="local-comercial"> Local comercial </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="oficina"
-            />
-            <label class="form-check-label" for="oficina"> Oficinas </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="parqueo"
-            />
-            <label class="form-check-label" for="parqueo"> Parqueo </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="otro" />
-            <label class="form-check-label" for="otro"> Otro </label>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="otro-input" />
-          </div>
-          <h2>Área de construcción</h2>
-          <div class="form-group">
-            <label for="metros-cuadrados">Metros cuadrados m²</label>
-            <input type="number" class="form-control" id="metros-cuadrados" />
-          </div>
-          <div class="form-group">
-            <label for="pisos">Número de pisos</label>
-            <input type="number" class="form-control" id="pisos" />
-          </div>
-          <h2>Valor de la obra</h2>
-          <div class="form-group">
-            <label for="costo">Costo total</label>
-            <input type="number" class="form-control" id="costo" />
-          </div>
-          <div class="form-group">
-            <label for="valor-metros">Valor m²</label>
-            <input type="number" class="form-control" id="valor-metros" />
-          </div>
-          <h2>Materiales predominantes</h2>
-          <h3>Pisos</h3>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="concreto"
-            />
-            <label class="form-check-label" for="concreto"> Concreto </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="madera"
-            />
-            <label class="form-check-label" for="madera"> Madera </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="ceramica"
-            />
-            <label class="form-check-label" for="ceramica"> Cerámica </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="otro" />
-            <label class="form-check-label" for="otro"> Otro </label>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="otro-input" />
-          </div>
-          <h3>Paredes</h3>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="block"
-            />
-            <label class="form-check-label" for="block"> Block </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="zocalo"
-            />
-            <label class="form-check-label" for="zocalo"> Zocalo </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="fibrol"
-            />
-            <label class="form-check-label" for="fibrol"> Fibrolit </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="otro" />
-            <label class="form-check-label" for="otro"> Otro </label>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="otro-input" />
-          </div>
-          <h3>Techo</h3>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="teja"
-            />
-            <label class="form-check-label" for="teja"> Teja </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="hierro"
-            />
-            <label class="form-check-label" for="hierro"> Hierro galvanizado </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="lamina"
-            />
-            <label class="form-check-label" for="lamina"> Lámina estructural </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="otro" />
-            <label class="form-check-label" for="otro"> Otro </label>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="otro-input" />
-          </div>
-          <div class="d-flex align-items-baseline">
-            <h2>Duración estimada de los trabajos a realizar</h2>
-            <h3 class="ml-2">(especifique)</h3>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="dias" />
-                    <label class="form-check-label" for="dias"> Días </label>
-                  </div>
-                  <div class="form-group">
-                    <input type="number" class="form-control" id="dias-input" />
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="meses" />
-                    <label class="form-check-label" for="meses"> Meses </label>
-                  </div>
-                  <div class="form-group">
-                    <input type="number" class="form-control" id="meses-input" />
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="anios" />
-                    <label class="form-check-label" for="anios"> Años </label>
-                </div>
-                <div class="form-group">
-                    <input type="number" class="form-control" id="anios-input" />
-                </div>
-            </div>
-              
-          </div>
-          <div class="d-flex align-items-baseline">
-            <h2>Cierre de acera</h2>
-            <h3 class="ml-2">(tiempo)</h3>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="dias" />
-                    <label class="form-check-label" for="dias"> Días </label>
-                  </div>
-                  <div class="form-group">
-                    <input type="number" class="form-control" id="dias-input" />
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="meses" />
-                    <label class="form-check-label" for="meses"> Meses </label>
-                  </div>
-                  <div class="form-group">
-                    <input type="number" class="form-control" id="meses-input" />
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label for="fecha-desde">Desde</label>
-                    <input type="date" class="form-control" id="fecha-desde" />
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label for="fecha-hasta">Hasta</label>
-                    <input type="date" class="form-control" id="fecha-hasta" />
-                  </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="vivienda"
+              />
+              <label class="form-check-label" for="vivienda"> Vivienda </label>
             </div>
           </div>
-          <div class="d-flex align-items-baseline">
-            <h2>Financiamiento</h2>
-            <h3 class="ml-2">(marque únicamente el de mayor aporte)</h3>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="banco"
-                    />
-                    <label class="form-check-label" for="banco"> Banco </label>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="bono"
-                    />
-                    <label class="form-check-label" for="bono"> Bono Vivienda </label>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="exonerado"
-                    />
-                    <label class="form-check-label" for="exonerado"> Exonerado </label>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="otro" />
-                    <label class="form-check-label" for="otro"> Otro </label>
-                  </div>
-                  <div class="form-group">
-                    <input type="number" class="form-control" id="otro-input" />
-                  </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="urbanizacion"
+              />
+              <label class="form-check-label" for="urbanizacion">
+                Urbanización
+              </label>
             </div>
           </div>
-          <h2>Para finalizar</h2>
-          <div class="form-group">
-            <label for="nombre">Nombre completo y apellidos del profesional responsable de la obra</label>
-            <input type="text" class="form-control" id="nombre" />
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="local-comercial"
+              />
+              <label class="form-check-label" for="local-comercial">
+                Local comercial
+              </label>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="cedula">Cédula</label>
-            <input type="number" class="form-control" id="cedula" />
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="oficina"
+              />
+              <label class="form-check-label" for="oficina"> Oficinas </label>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="observaciones">Observaciones</label>
-            <input type="text" class="form-control" id="observaciones" />
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="parqueo"
+              />
+              <label class="form-check-label" for="parqueo"> Parqueo </label>
+            </div>
           </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="otro"
+              />
+              <label class="form-check-label" for="otro"> Otro </label>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="otro-input" />
+            </div>
+          </div>
+        </div>
+        <h2>Área de construcción</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="metros-cuadrados">Metros cuadrados m²</label>
+              <input type="number" class="form-control" id="metros-cuadrados" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="pisos">Número de pisos</label>
+              <input type="number" class="form-control" id="pisos" />
+            </div>
+          </div>
+        </div>
+        <h2>Valor de la obra</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="costo">Costo total</label>
+              <input type="number" class="form-control" id="costo" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="valor-metros">Valor m²</label>
+              <input type="number" class="form-control" id="valor-metros" />
+            </div>
+          </div>
+        </div>
+        <h2>Materiales predominantes</h2>
+        <h3>Pisos</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="concreto"
+              />
+              <label class="form-check-label" for="concreto"> Concreto </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="madera"
+              />
+              <label class="form-check-label" for="madera"> Madera </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="ceramica"
+              />
+              <label class="form-check-label" for="ceramica"> Cerámica </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="otro"
+              />
+              <label class="form-check-label" for="otro"> Otro </label>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="otro-input" />
+            </div>
+          </div>
+        </div>
+        <h3>Paredes</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="block"
+              />
+              <label class="form-check-label" for="block"> Block </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="zocalo"
+              />
+              <label class="form-check-label" for="zocalo"> Zocalo </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="fibrol"
+              />
+              <label class="form-check-label" for="fibrol"> Fibrolit </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="otro"
+              />
+              <label class="form-check-label" for="otro"> Otro </label>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="otro-input" />
+            </div>
+          </div>
+        </div>
+        <h3>Techo</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="teja"
+              />
+              <label class="form-check-label" for="teja"> Teja </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="hierro"
+              />
+              <label class="form-check-label" for="hierro">
+                Hierro galvanizado
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="lamina"
+              />
+              <label class="form-check-label" for="lamina">
+                Lámina estructural
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="otro"
+              />
+              <label class="form-check-label" for="otro"> Otro </label>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="otro-input" />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-baseline">
+          <h2>Duración estimada de los trabajos a realizar</h2>
+          <h3 class="ml-2">(especifique)</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="dias"
+              />
+              <label class="form-check-label" for="dias"> Días </label>
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="dias-input" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="meses"
+              />
+              <label class="form-check-label" for="meses"> Meses </label>
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="meses-input" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="anios"
+              />
+              <label class="form-check-label" for="anios"> Años </label>
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="anios-input" />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-baseline">
+          <h2>Cierre de acera</h2>
+          <h3 class="ml-2">(tiempo)</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="dias"
+              />
+              <label class="form-check-label" for="dias"> Días </label>
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="dias-input" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="meses"
+              />
+              <label class="form-check-label" for="meses"> Meses </label>
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="meses-input" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="fecha-desde">Desde</label>
+              <input type="date" class="form-control" id="fecha-desde" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="fecha-hasta">Hasta</label>
+              <input type="date" class="form-control" id="fecha-hasta" />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-baseline">
+          <h2>Financiamiento</h2>
+          <h3 class="ml-2">(marque únicamente el de mayor aporte)</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="banco"
+              />
+              <label class="form-check-label" for="banco"> Banco </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="bono"
+              />
+              <label class="form-check-label" for="bono"> Bono Vivienda </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="exonerado"
+              />
+              <label class="form-check-label" for="exonerado">
+                Exonerado
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="declarado"
+              />
+              <label class="form-check-label" for="declarado">
+                Declaratoria de interés social emitida por el ente autorizado
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="otro"
+              />
+              <label class="form-check-label" for="otro"> Otro </label>
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="otro-input" />
+            </div>
+          </div>
+        </div>
+        <h2>Para finalizar</h2>
+        <div class="form-group">
+          <label for="nombre"
+            >Nombre completo y apellidos del profesional responsable de la
+            obra</label
+          >
+          <input type="text" class="form-control" id="nombre" />
+        </div>
+        <div class="form-group">
+          <label for="cedula">Cédula</label>
+          <input type="number" class="form-control" id="cedula" />
+        </div>
+        <div class="form-group">
+          <label for="observaciones">Observaciones</label>
+          <input type="text" class="form-control" id="observaciones" />
+        </div>
       </form>
+      <p>Haga clic en el siguiente botón para guardar su formulario</p>
+      <button type="button" class="btn btn-primary">Enviar formulario</button>
     </div>
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+      <p>
+        &copy; 2024 Agencia de Permisos de Construcción. Todos los derechos
+        reservados.
+      </p>
+    </footer>
   </body>
 </html>
