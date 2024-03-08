@@ -1,0 +1,10 @@
+
+
+.valid {
+    background-color: #c8e6c9; /* Color verde para campos válidos */
+  }
+  
+  .invalid {
+    background-color: #ffcdd2; /* Color rojo para campos inválidos */
+  }
+  
