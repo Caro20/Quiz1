@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
       campo.classList.remove("valid");
       campo.classList.add("invalid");
       label.classList.add("invalid-label"); // agrega la clase del color rojo
-      label.textContent += " *";
     }
   }
 
