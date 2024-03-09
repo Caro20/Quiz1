@@ -1,8 +1,27 @@
 # Quiz1
 
-El index.html es la pagina principal del sistema en el cual va a tener informacion de la agencia de persmisod e construccion. 
-![alt text](image.png)
-Un poco mas abajo esta tenermos lo servicio que oferecemos y esta se divide en tre secciones, la primera de asesioramiento profecional. la segunda la gestion de documentacion. y por ultimo el de servicios personalizados.
-![alt text](image-1.png)
-y por ultimo esta la seccion de formularios, el primero en linea donde lo enviara a la siguieinte pagina llamada explicaion donde se explicara cada detalle, l asegunda donde se podra descargar el formuario de tipo pdf.
-![alt text](image-2.png)
+Página Principal - Agencia de Permisos de Construcción
+El archivo index.html sirve como la página principal del sistema, donde se presenta información sobre nuestra agencia de permisos de construcción.
+
+![alt text](/images/image.png)
+
+Servicios Ofrecidos
+Los servicios que ofrecemos se dividen en tres secciones principales:
+
+Asesoramiento Profesional
+Gestión de Documentación
+Servicios Personalizados
+
+![alt text](/images/image-1.png)
+
+Sección de Formularios
+En la sección de formularios, los usuarios tienen dos opciones:
+
+Formulario en Línea:
+Este formulario se enviará a la siguiente página llamada "Explicación", donde se detallarán todos los aspectos relacionados con el proceso.
+
+Formulario en PDF:
+Los usuarios pueden descargar el formulario en formato PDF para su conveniencia.
+
+![alt text](/images/image-2.png)
+
