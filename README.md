@@ -1,58 +1,51 @@
 # Quiz1
 
-Enlace del sitio: https://main--agencia-permisos-construccion.netlify.app/
+Enlace del sitio web: https://main--agencia-permisos-construccion.netlify.app/
 
 
-Index.html
-Sistema de Agencia de Permisos de Construcción
-El archivo index.html sirve como la página principal de nuestro sistema, que proporciona información sobre nuestra agencia de permisos de construcción.
+index.html  
+Sistema de Agencia de Permisos de Construcción  
+El archivo index.html sirve como la página principal de nuestro sistema, la cual proporciona información sobre la agencia de permisos de construcción.
 
 ![alt text](images/image.png)
 
-Información de la Agencia:
-Imagen de la Agencia
-Esta sección proporciona detalles sobre nuestra agencia y sus servicios.
+Información de la Agencia  
+Esta sección proporciona detalles sobre la agencia y los servicios que ofrece.
 
 ![alt text](images/image-1.png)
 
-Esta sección se divide en tres partes:
-Asesoramiento Profesional.
-Gestión de Documentación.
-Servicios Personalizados.
-Imagen de los Servicios
-Formularios:
+Esta sección se divide en tres partes:  
+1. Asesoramiento Profesional  
+2. Gestión de Documentación  
+3. Servicios Personalizados  
+Formularios  
 Aquí se encuentran los formularios disponibles para los usuarios:
 
 ![alt text](images/image-2.png)
-Este formulario se enviará a la siguiente página llamada "Explicación", donde se detallarán los pasos a seguir.
-Formulario en PDF:
-Los usuarios pueden descargar este formulario en formato PDF.
-Imagen de los Formularios
-Instrucciones Adicionales
-Explicación: La página a la que se redirige desde el formulario en línea (explicacion.html) debe proporcionar una explicación detallada de los procedimientos y requisitos para completar el formulario y obtener los servicios de la agencia.
 
-explicacion.html
+El botón de Documentación en línea enviará al usuario a la siguiente página, llamada "Explicación", donde se detallarán los pasos a seguir para solicitar algún tipo de permiso de construcción.  
+Los usuarios también tendrán la opción de descargar el formulario en formato PDF, mediante el botón Descargar formulario.  
 
-El archivo explicacion.html sirve como la pagina de expliciaon de la constructora de nuestro sistema, que proporciona información sobre permisos de construcción y mas detalles de los servicios brindados.
+explicacion.html  
+
+El archivo "explicacion.html" sirve como la página explicativa de la agencia de permisos de construcción de nuestro sistema, la cual proporciona información sobre permisos de construcción y demás detalles sobre los servicios brindados.
 
 
 ![alt text](/images/image-3.png)
 
-La segunda seccion esta dividido en varias partes, la primera es que si la obra es menor a los 40 metros cuadrados. La Segunda si la obra es mayor a los 40 metros cuadrados. Los proyectos Urbanisticos con sus Requisitos. otra seccion es la torres de telecomunicaciones y por ultimo Aclarcion de obras menores.
+La segunda sección está dividida en varias partes; la primera es sobre si la obra es menor a los 40 metros cuadrados, la Segunda sobre si la obra es mayor a los 40 metros cuadrados, los proyectos urbanísticos con sus  respectivos requisitos, las torres de telecomunicaciones con sus requisitos y, por último, una aclarción sobre las obras menores.
 
 ![alt text](/images/image-4.png)
 ![alt text](/images/image-5.png)
 
-Esta sección se divide en 2 partes:
-Sobre videos Profesional para la ayuda del cliente.
+Esta sección se divide en dos partes:  
+Vídeos profesionales para brindar ayuda al cliente y retroalimentar el conocimiento que brinda la página.
 
 ![alt text](/images/image-6.png)
 
-Este formulario se enviará a la siguiente página llamada "formulario", donde se detallarán como completar el formulario.
-Formulario en PDF:
-Los usuarios pueden descargar este formulario en formato PDF.
-Imagen de los Formularios
-Instrucciones Adicionales
-Explicación: La página a la que se redirige desde el formulario en línea (formulario.html) donde hi podra elegir y completar el formulario para la necesita que necesita el cliente.
+En la sección a continuación, en el botón de Ir al formulario, se redirigirá al usuario a la siguiente página llamada "formulario", donde podrá llenar el formulario en línea con la información solicitada.  
+Además, el usuario tendrá la opción de llenar dicho formulario fuera de línea, con la descarga del mismo, por medio del botón Descargar Formulario.  
+
+
 
 ![alt text](/images/image-7.png)
