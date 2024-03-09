@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const enviarBtn = document.querySelector(".btn-primary");
 
   // Define un array con los nombres de las clases de tus checkboxes
-  const clasesCheckbox = ['.form-check-input', '.form-check-inputwo'];
+  const clasesCheckbox = ['.form-check-input', '.check-dos', '.check-tres', '.check-cuatro', '.check-cinco',
+  '.check-seis', '.check-siete', '.check-ocho'];
 
   function validarCampo(campo, valido) {
     var id = campo.id;
@@ -46,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "cedula-pro",
       "fecha-desde",
       "fecha-hasta",
+      "observaciones"
     ];
 
     let camposValidos = true;
@@ -61,9 +63,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Recorre el array de clases de checkbox
     clasesCheckbox.forEach(function(clase) {
-      const checkboxes = document.querySelectorAll('.' + clase);
+      const checkboxes = document.querySelectorAll(clase);
       let algunCheckboxMarcado = Array.from(checkboxes).some(checkbox => checkbox.checked);
       checkboxes.forEach(function (checkbox) {
+        // Aquí cambiamos la lógica para que valide si al menos un checkbox de la misma clase está marcado
         validarCampo(checkbox, algunCheckboxMarcado);
 
         if (!checkbox.classList.contains("valid")) {
@@ -80,6 +83,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+
 
 
 
