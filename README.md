@@ -4,6 +4,7 @@ Enlace del sitio web: https://main--agencia-permisos-construccion.netlify.app/
 
 
 index.html  
+
 Sistema de Agencia de Permisos de Construcción  
 El archivo index.html sirve como la página principal de nuestro sistema, la cual proporciona información sobre la agencia de permisos de construcción.
 
@@ -46,6 +47,26 @@ Vídeos profesionales para brindar ayuda al cliente y retroalimentar el conocimi
 En la sección a continuación, en el botón de Ir al formulario, se redirigirá al usuario a la siguiente página llamada "formulario", donde podrá llenar el formulario en línea con la información solicitada.  
 Además, el usuario tendrá la opción de llenar dicho formulario fuera de línea, con la descarga del mismo, por medio del botón Descargar Formulario.  
 
-
-
 ![alt text](/images/image-7.png)
+
+
+formulario.html
+
+En este archivo se contiene la página del formulario en línea que el usuario podrá llenar con sus datos personales y los de la obra.  
+Este formulario consta de varias secciones, la primera es sobre información del propietario o propietaria.
+
+![alt text](/images/image-8.png)
+
+La siguiente sección solicita información sobre la propiedad sobre la que se construirá la obra.
+
+![alt text](/images/image-9.png)
+
+La siguiente sección solicita información relevante sobre la obra como tal, qué tipo de obra será, valor y costo, tamaño, materiales que se usarán, tiempo que tardará y tipo de financiamiento para realizarla.
+
+![alt text](/images/image-10.png)
+![alt text](/images/image-11.png)
+![alt text](/images/image-12.png)
+
+Por último, se solicita información sobre el profesional encargado de la obra y demás datos importantes. Además, en esta parte se encuentra el botón para enviar el formulario.
+
+![alt text](/images/image-13.png)
