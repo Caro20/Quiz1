@@ -1,12 +1,83 @@
-
-
 .valid {
-    background-color: #c8e6c9; /* Color verde para campos válidos */
+  background-color: #c8e6c9; /* Color verde para campos válidos */
+}
+
+.invalid {
+  background-color: #ffcdd2; /* Color rojo para campos inválidos */
+}
+.invalid-label {
+  color: red;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
   }
-  
-  .invalid {
-    background-color: #ffcdd2; /* Color rojo para campos inválidos */
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  .invalid-label {
-    color: red;
+}
+
+.card {
+  animation: slideInUp 0.5s ease-in-out;
+}
+
+#proceso {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ani {
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+#imagen {
+  text-align: center;
+}
+
+.image-container {
+  display: inline-block;
+}
+
+.image-container {
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

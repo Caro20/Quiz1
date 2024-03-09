@@ -1,29 +1,17 @@
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Agencia de Permisos de Construcción Municipales</title>
-    <!-- Agregar enlaces a los archivos CSS de Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-  </head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Permisos de Construcción</title>
+    <!-- Aplicar Bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" /></head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <h1 class="navbar-brand">Permisos de Construcción</h1>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <a class="nav-link  text-white" href="landing.html">Permisos de Construcción</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,7 +27,7 @@
     </nav>
     
 
-    <section id="proceso" class="container mt-5">
+    <section id="proceso" class="container mt-5 ani">
       <h2>Proceso de Obtención de Permisos de Construcción</h2>
 
       <p>
@@ -49,12 +37,15 @@
       </p>
     </section>
 
-    <section id="imagen" class="container mt-5">
-      <img src="images/house.jpg" class="img-fluid" alt="Responsive image" />
+    <section id="imagen" class="container mt-5 ani">
+      <div class="image-container">
+        <img src="images/house.jpg" class="img-fluid" alt="Responsive image" />
+      </div>
     </section>
+    
 
     <!-- Sección de Obras Menores -->
-    <section id="obra-menor" class="container mt-5">
+    <section id="obra-menor" class="container mt-5 ">
       <h3>Obra Menor (menor a 40m²)</h3>
       <h4>Requisitos:</h4>
       <ul>
@@ -206,7 +197,6 @@
     </footer>
 
  
-    <!-- Agregar enlaces a los archivos JavaScript de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
